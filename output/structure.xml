@@ -1,0 +1,2672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project version="2.0.0a12" title="">
+  <file path="archive.php" hash="bf15650e59fdbeb4d4a5526074f2fae0" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file archive.php</error>
+    </parse_markers>
+  </file>
+  <file path="comments.php" hash="6727d0fe6bef27b944a2daf76a859416" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file comments.php</error>
+    </parse_markers>
+  </file>
+  <file path="dfp.php" hash="68def7db038273ec3d2629b97c296d17" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file dfp.php</error>
+    </parse_markers>
+  </file>
+  <file path="feat-cats.php" hash="f2f144ef7208c04c3a555253d0f2907f" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file feat-cats.php</error>
+    </parse_markers>
+  </file>
+  <file path="footer.php" hash="32d4f6ad97879c660f1e5bb867cb7064" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file footer.php</error>
+    </parse_markers>
+  </file>
+  <file path="functions.php" hash="fdc1cbed8ce185927883ec36d7c69b4a" package="Default">
+    <include line="3" type="Require Once" package="Default">
+      <name/>
+    </include>
+    <include line="17" type="Require Once" package="Default">
+      <name/>
+    </include>
+    <include line="18" type="Require Once" package="Default">
+      <name/>
+    </include>
+    <function namespace="global" line="20" package="Default">
+      <name>js_option</name>
+      <full_name>\js_option</full_name>
+      <argument line="20">
+        <name>$option_name</name>
+        <default></default>
+        <type/>
+      </argument>
+    </function>
+    <function namespace="global" line="27" package="Default">
+      <name>js_excerpt</name>
+      <full_name>\js_excerpt</full_name>
+      <argument line="27">
+        <name>$length</name>
+        <default></default>
+        <type/>
+      </argument>
+    </function>
+    <function namespace="global" line="35" package="Default">
+      <name>dont_add_review_to_excerpt</name>
+      <full_name>\dont_add_review_to_excerpt</full_name>
+      <argument line="35">
+        <name>$content</name>
+        <default></default>
+        <type/>
+      </argument>
+    </function>
+    <function namespace="global" line="40" package="Default">
+      <name>custom_excerpt_length</name>
+      <full_name>\custom_excerpt_length</full_name>
+    </function>
+    <function namespace="global" line="45" package="Default">
+      <name>custom_excerpt_more</name>
+      <full_name>\custom_excerpt_more</full_name>
+    </function>
+    <function namespace="global" line="50" package="Default">
+      <name>js_truncate_post</name>
+      <full_name>\js_truncate_post</full_name>
+      <argument line="50">
+        <name>$length</name>
+        <default>55</default>
+        <type/>
+      </argument>
+      <argument line="50">
+        <name>$more</name>
+        <default>'[...]'</default>
+        <type/>
+      </argument>
+      <argument line="50">
+        <name>$echo</name>
+        <default>true</default>
+        <type/>
+      </argument>
+    </function>
+    <function namespace="global" line="93" package="Default">
+      <name>taxes_init</name>
+      <full_name>\taxes_init</full_name>
+    </function>
+    <function namespace="global" line="163" package="Default">
+      <name>js_terms</name>
+      <full_name>\js_terms</full_name>
+      <argument line="163">
+        <name>$terms</name>
+        <default></default>
+        <type/>
+      </argument>
+    </function>
+    <function namespace="global" line="173" package="Default">
+      <name>js_ratings_box</name>
+      <full_name>\js_ratings_box</full_name>
+    </function>
+    <function namespace="global" line="247" package="Default">
+      <name>js_add_review</name>
+      <full_name>\js_add_review</full_name>
+      <argument line="247">
+        <name>$content</name>
+        <default></default>
+        <type/>
+      </argument>
+    </function>
+    <function namespace="global" line="259" package="Default">
+      <name>js_kit_comments</name>
+      <full_name>\js_kit_comments</full_name>
+      <argument line="259">
+        <name>$comment</name>
+        <default></default>
+        <type/>
+      </argument>
+      <argument line="259">
+        <name>$args</name>
+        <default></default>
+        <type/>
+      </argument>
+      <argument line="259">
+        <name>$depth</name>
+        <default></default>
+        <type/>
+      </argument>
+    </function>
+    <function namespace="global" line="321" package="Default">
+      <name>js_catch_that_desc</name>
+      <full_name>\js_catch_that_desc</full_name>
+      <docblock line="320">
+        <description>catch a description for the OG protocol *</description>
+        <long-description></long-description>
+      </docblock>
+    </function>
+    <function namespace="global" line="332" package="Default">
+      <name>js_enqueue_jquery</name>
+      <full_name>\js_enqueue_jquery</full_name>
+      <docblock line="329">
+        <description>END *</description>
+        <long-description></long-description>
+      </docblock>
+    </function>
+    <function namespace="global" line="342" package="Default">
+      <name>js_make_project</name>
+      <full_name>\js_make_project</full_name>
+      <argument line="342">
+        <name>$guide</name>
+        <default></default>
+        <type/>
+      </argument>
+    </function>
+    <function namespace="global" line="465" package="Default">
+      <name>js_change_reply</name>
+      <full_name>\js_change_reply</full_name>
+      <argument line="465">
+        <name>$defaults</name>
+        <default></default>
+        <type/>
+      </argument>
+    </function>
+    <function namespace="global" line="471" package="Default">
+      <name>new_js_add_review</name>
+      <full_name>\new_js_add_review</full_name>
+      <argument line="471">
+        <name>$content</name>
+        <default></default>
+        <type/>
+      </argument>
+    </function>
+    <function namespace="global" line="490" package="Default">
+      <name>js_create_blog_taxonomies</name>
+      <full_name>\js_create_blog_taxonomies</full_name>
+    </function>
+    <function namespace="global" line="541" package="Default">
+      <name>js_kit_blog</name>
+      <full_name>\js_kit_blog</full_name>
+    </function>
+    <function namespace="global" line="583" package="Default">
+      <name>js_blog_page_remove_plugin_filters</name>
+      <full_name>\js_blog_page_remove_plugin_filters</full_name>
+    </function>
+    <function namespace="global" line="595" package="Default">
+      <name>js_feed_change</name>
+      <full_name>\js_feed_change</full_name>
+      <argument line="595">
+        <name>$qv</name>
+        <default></default>
+        <type/>
+      </argument>
+    </function>
+    <function namespace="global" line="602" package="Default">
+      <name>make_get_category_name</name>
+      <full_name>\make_get_category_name</full_name>
+    </function>
+    <function namespace="global" line="635" package="Default">
+      <name>make_kits_add_my_stylesheet</name>
+      <full_name>\make_kits_add_my_stylesheet</full_name>
+      <docblock line="632">
+        <description>Enqueue plugin style-file</description>
+        <long-description></long-description>
+      </docblock>
+    </function>
+    <function namespace="global" line="643" package="Default">
+      <name>make_quantcast_tag</name>
+      <full_name>\make_quantcast_tag</full_name>
+    </function>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file functions.php</error>
+      <error line="20" code="50009">No DocBlock was found for function \js_option()</error>
+      <error line="27" code="50009">No DocBlock was found for function \js_excerpt()</error>
+      <error line="35" code="50009">No DocBlock was found for function \dont_add_review_to_excerpt()</error>
+      <error line="40" code="50009">No DocBlock was found for function \custom_excerpt_length()</error>
+      <error line="45" code="50009">No DocBlock was found for function \custom_excerpt_more()</error>
+      <error line="50" code="50009">No DocBlock was found for function \js_truncate_post()</error>
+      <error line="93" code="50009">No DocBlock was found for function \taxes_init()</error>
+      <error line="163" code="50009">No DocBlock was found for function \js_terms()</error>
+      <error line="173" code="50009">No DocBlock was found for function \js_ratings_box()</error>
+      <error line="247" code="50009">No DocBlock was found for function \js_add_review()</error>
+      <error line="259" code="50009">No DocBlock was found for function \js_kit_comments()</error>
+      <error line="342" code="50009">No DocBlock was found for function \js_make_project()</error>
+      <error line="465" code="50009">No DocBlock was found for function \js_change_reply()</error>
+      <error line="471" code="50009">No DocBlock was found for function \new_js_add_review()</error>
+      <error line="490" code="50009">No DocBlock was found for function \js_create_blog_taxonomies()</error>
+      <error line="541" code="50009">No DocBlock was found for function \js_kit_blog()</error>
+      <error line="583" code="50009">No DocBlock was found for function \js_blog_page_remove_plugin_filters()</error>
+      <error line="595" code="50009">No DocBlock was found for function \js_feed_change()</error>
+      <error line="602" code="50009">No DocBlock was found for function \make_get_category_name()</error>
+      <error line="643" code="50009">No DocBlock was found for function \make_quantcast_tag()</error>
+    </parse_markers>
+  </file>
+  <file path="header.php" hash="f714101615db9b8d2583d7e0047b8d0b" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file header.php</error>
+    </parse_markers>
+  </file>
+  <file path="home.php" hash="8febe1b68819c530d11a42423872c7cd" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file home.php</error>
+    </parse_markers>
+  </file>
+  <file path="includes/cheezcap-config.php" hash="15905315c9fc444860a4d3f1195e15de" package="Default">
+    <docblock line="2">
+      <description>CheezCap - Cheezburger Custom Administration Panel
+(c) 2008 - 2011 Cheezburger Network (Pet Holdings, Inc.)
+LOL: http://cheezburger.com
+Source: http://github.com/cheezburger/cheezcap/
+Authors: Kyall Barrows, Toby McKes, Stefan Rusek, Scott Porad
+UnLOLs by Mo Jangda (batmoo@gmail.com)
+License: GNU General Public License, version 2 (GPL), http://www.gnu.org/licenses/gpl-2.0.html</description>
+      <long-description></long-description>
+    </docblock>
+  </file>
+  <file path="index.php" hash="af173fe039cb180afbd01bc9d3ca36ca" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file index.php</error>
+    </parse_markers>
+  </file>
+  <file path="page-test.php" hash="0477e3760814463adb918472d9472323" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file page-test.php</error>
+    </parse_markers>
+  </file>
+  <file path="page.php" hash="c5fcc9325386dc927d12ca0843310967" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file page.php</error>
+    </parse_markers>
+  </file>
+  <file path="query-multiple-taxonomies/core.php" hash="0f848696a9841161523f2c93875d65b1" package="Default">
+    <function namespace="global" line="133" package="Default">
+      <name>is_multitax</name>
+      <full_name>\is_multitax</full_name>
+      <docblock line="127">
+        <description>Wether multiple taxonomies are queried</description>
+        <long-description></long-description>
+        <tag line="127" name="param" description="A list of taxonomies to check for (AND)." type="array" variable="$taxonomies">
+          <type by_reference="false">array</type>
+        </tag>
+        <tag line="127" name="return" description="" type="bool">
+          <type by_reference="false">bool</type>
+        </tag>
+      </docblock>
+      <argument line="133">
+        <name>$taxonomies</name>
+        <default>array()</default>
+        <type/>
+      </argument>
+    </function>
+    <function namespace="global" line="150" package="Default">
+      <name>qmt_get_query</name>
+      <full_name>\qmt_get_query</full_name>
+      <docblock line="143">
+        <description>Get the list of selected terms</description>
+        <long-description></long-description>
+        <tag line="143" name="param" description="a certain taxonomy name" type="string" variable="$taxname">
+          <type by_reference="false">string</type>
+        </tag>
+        <tag line="143" name="return" description="taxonomy =&gt; query )" type="\array(">
+          <type by_reference="false">\array(</type>
+        </tag>
+      </docblock>
+      <argument line="150">
+        <name>$taxname</name>
+        <default>''</default>
+        <type/>
+      </argument>
+    </function>
+    <function namespace="global" line="182" package="Default">
+      <name>qmt_get_terms</name>
+      <full_name>\qmt_get_terms</full_name>
+      <argument line="182">
+        <name>$tax</name>
+        <default></default>
+        <type/>
+      </argument>
+    </function>
+    <class final="false" abstract="false" namespace="global" line="3" package="Default">
+      <extends/>
+      <name>QMT_Terms</name>
+      <full_name>\QMT_Terms</full_name>
+      <property final="false" static="true" visibility="private" line="5" namespace="global" package="Default">
+        <name>$filtered_ids</name>
+        <default></default>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="8" package="Default">
+        <name>get</name>
+        <full_name>get</full_name>
+        <argument line="8">
+          <name>$tax</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="global" line="24" package="Default">
+        <name>set_filtered_ids</name>
+        <full_name>set_filtered_ids</full_name>
+      </method>
+    </class>
+    <class final="false" abstract="false" namespace="global" line="45" package="Default">
+      <extends/>
+      <name>QMT_URL</name>
+      <full_name>\QMT_URL</full_name>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="47" package="Default">
+        <name>for_tax</name>
+        <full_name>for_tax</full_name>
+        <argument line="47">
+          <name>$taxonomy</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="47">
+          <name>$value</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="58" package="Default">
+        <name>get</name>
+        <full_name>get</full_name>
+        <argument line="58">
+          <name>$query</name>
+          <default>array()</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="72" package="Default">
+        <name>get_base</name>
+        <full_name>get_base</full_name>
+      </method>
+    </class>
+    <class final="false" abstract="false" namespace="global" line="82" package="Default">
+      <extends/>
+      <name>QMT_Template</name>
+      <full_name>\QMT_Template</full_name>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="84" package="Default">
+        <name>get_title</name>
+        <full_name>get_title</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="110" package="Default">
+        <name>wp_title</name>
+        <full_name>wp_title</full_name>
+        <argument line="110">
+          <name>$title</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="110">
+          <name>$sep</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="110">
+          <name>$seplocation</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file query-multiple-taxonomies/core.php</error>
+      <error line="182" code="50009">No DocBlock was found for function \qmt_get_terms()</error>
+      <error line="3" code="50000">No DocBlock was found for \QMT_Terms</error>
+      <error line="5" code="50018">No DocBlock was found for property $filtered_ids</error>
+      <error line="8" code="50010">No DocBlock was found for method get()</error>
+      <error line="24" code="50010">No DocBlock was found for method set_filtered_ids()</error>
+      <error line="45" code="50000">No DocBlock was found for \QMT_URL</error>
+      <error line="47" code="50010">No DocBlock was found for method for_tax()</error>
+      <error line="58" code="50010">No DocBlock was found for method get()</error>
+      <error line="72" code="50010">No DocBlock was found for method get_base()</error>
+      <error line="82" code="50000">No DocBlock was found for \QMT_Template</error>
+      <error line="84" code="50010">No DocBlock was found for method get_title()</error>
+      <error line="110" code="50010">No DocBlock was found for method wp_title()</error>
+    </parse_markers>
+  </file>
+  <file path="query-multiple-taxonomies/mustache/Mustache.php" hash="65ccf76a349d6812562fd3e05a4763f5" package="Default">
+    <class final="false" abstract="false" namespace="global" line="15" package="Default">
+      <extends/>
+      <name>Mustache</name>
+      <full_name>\Mustache</full_name>
+      <docblock line="3">
+        <description>A Mustache implementation in PHP.</description>
+        <long-description>&lt;p&gt;{@link http://defunkt.github.com/mustache}&lt;/p&gt;
+
+&lt;p&gt;Mustache is a framework-agnostic logic-less templating language. It enforces separation of view
+logic from template files. In fact, it is not even possible to embed logic in the template.&lt;/p&gt;
+
+&lt;p&gt;This is very, very rad.&lt;/p&gt;</long-description>
+        <tag line="3" name="author" description="Justin Hileman {@link http://justinhileman.com}"/>
+      </docblock>
+      <constant namespace="global" line="17" package="Default">
+        <name>VERSION</name>
+        <full_name>VERSION</full_name>
+        <value>'0.7.1'</value>
+      </constant>
+      <constant namespace="global" line="53" package="Default">
+        <name>PRAGMA_UNESCAPED</name>
+        <full_name>PRAGMA_UNESCAPED</full_name>
+        <value>'UNESCAPED'</value>
+        <docblock line="43">
+          <description>The {{%UNESCAPED}} pragma swaps the meaning of the {{normal}} and {{{unescaped}}}
+Mustache tags.</description>
+          <long-description>&lt;p&gt;That is, once this pragma is activated the {{normal}} tag will not be
+escaped while the {{{unescaped}}} tag will be escaped.&lt;/p&gt;
+
+&lt;p&gt;Pragmas apply only to the current template. Partials, even those included after the
+{{%UNESCAPED}} call, will need their own pragma declaration.&lt;/p&gt;
+
+&lt;p&gt;This may be useful in non-HTML Mustache situations.&lt;/p&gt;</long-description>
+        </docblock>
+      </constant>
+      <constant namespace="global" line="58" package="Default">
+        <name>SECTION_TYPES</name>
+        <full_name>SECTION_TYPES</full_name>
+        <value>'\^#\/'</value>
+        <docblock line="55">
+          <description>Constants used for section and tag RegEx</description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="global" line="59" package="Default">
+        <name>TAG_TYPES</name>
+        <full_name>TAG_TYPES</full_name>
+        <value>'#\^\/=!&lt;&gt;\\{&amp;'</value>
+      </constant>
+      <property final="false" static="false" visibility="protected" line="24" namespace="global" package="Default">
+        <name>$_throwsExceptions</name>
+        <default>array(\MustacheException::UNKNOWN_VARIABLE =&gt; false, \MustacheException::UNCLOSED_SECTION =&gt; true, \MustacheException::UNEXPECTED_CLOSE_SECTION =&gt; true, \MustacheException::UNKNOWN_PARTIAL =&gt; false, \MustacheException::UNKNOWN_PRAGMA =&gt; true)</default>
+        <docblock line="19">
+          <description>Should this Mustache throw exceptions when it finds unexpected tags?</description>
+          <long-description></long-description>
+          <tag line="19" name="see" description="\self::_throwsException()" refers="\self::_throwsException()"/>
+        </docblock>
+      </property>
+      <property final="false" static="false" visibility="protected" line="33" namespace="global" package="Default">
+        <name>$_charset</name>
+        <default>'UTF-8'</default>
+      </property>
+      <property final="false" static="false" visibility="protected" line="61" namespace="global" package="Default">
+        <name>$_otag</name>
+        <default>'{{'</default>
+      </property>
+      <property final="false" static="false" visibility="protected" line="62" namespace="global" package="Default">
+        <name>$_ctag</name>
+        <default>'}}'</default>
+      </property>
+      <property final="false" static="false" visibility="protected" line="64" namespace="global" package="Default">
+        <name>$_tagRegEx</name>
+        <default></default>
+      </property>
+      <property final="false" static="false" visibility="protected" line="66" namespace="global" package="Default">
+        <name>$_template</name>
+        <default>''</default>
+      </property>
+      <property final="false" static="false" visibility="protected" line="67" namespace="global" package="Default">
+        <name>$_context</name>
+        <default>array()</default>
+      </property>
+      <property final="false" static="false" visibility="protected" line="68" namespace="global" package="Default">
+        <name>$_partials</name>
+        <default>array()</default>
+      </property>
+      <property final="false" static="false" visibility="protected" line="69" namespace="global" package="Default">
+        <name>$_pragmas</name>
+        <default>array()</default>
+      </property>
+      <property final="false" static="false" visibility="protected" line="71" namespace="global" package="Default">
+        <name>$_pragmasImplemented</name>
+        <default>array(self::PRAGMA_UNESCAPED)</default>
+      </property>
+      <property final="false" static="false" visibility="protected" line="75" namespace="global" package="Default">
+        <name>$_localPragmas</name>
+        <default>array()</default>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="105" package="Default">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="77">
+          <description>Mustache class constructor.</description>
+          <long-description>&lt;p&gt;This method accepts a $template string and a $view object. Optionally, pass an associative
+array of partials as well.&lt;/p&gt;
+
+&lt;p&gt;Passing an $options array allows overriding certain Mustache options during instantiation:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$options = array(
+    // `charset` -- must be supported by `htmlspecialentities()`. defaults to 'UTF-8'
+    'charset' =&amp;gt; 'ISO-8859-1',
+
+    // opening and closing delimiters, as an array or a space-separated string
+    'delimiters' =&amp;gt; '&amp;lt;% %&amp;gt;',
+
+    // an array of pragmas to enable
+    'pragmas' =&amp;gt; array(
+        Mustache::PRAGMA_UNESCAPED
+    ),
+);
+&lt;/code&gt;&lt;/pre&gt;</long-description>
+          <tag line="77" name="access" description="public"/>
+          <tag line="77" name="param" description="(default: null)" type="string" variable="$template">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="77" name="param" description="(default: null)" type="mixed" variable="$view">
+            <type by_reference="false">mixed</type>
+          </tag>
+          <tag line="77" name="param" description="(default: null)" type="array" variable="$partials">
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="77" name="param" description="(default: array())" type="array" variable="$options">
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="77" name="return" description="" type="void">
+            <type by_reference="false">void</type>
+          </tag>
+        </docblock>
+        <argument line="105">
+          <name>$template</name>
+          <default>null</default>
+          <type/>
+        </argument>
+        <argument line="105">
+          <name>$view</name>
+          <default>null</default>
+          <type/>
+        </argument>
+        <argument line="105">
+          <name>$partials</name>
+          <default>null</default>
+          <type/>
+        </argument>
+        <argument line="105">
+          <name>$options</name>
+          <default>null</default>
+          <type>array</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="119" package="Default">
+        <name>_setOptions</name>
+        <full_name>_setOptions</full_name>
+        <docblock line="112">
+          <description>Helper function for setting options from constructor args.</description>
+          <long-description></long-description>
+          <tag line="112" name="access" description="protected"/>
+          <tag line="112" name="param" description="" type="array" variable="$options">
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="112" name="return" description="" type="void">
+            <type by_reference="false">void</type>
+          </tag>
+        </docblock>
+        <argument line="119">
+          <name>$options</name>
+          <default></default>
+          <type>array</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="152" package="Default">
+        <name>__clone</name>
+        <full_name>__clone</full_name>
+        <docblock line="143">
+          <description>Mustache class clone method.</description>
+          <long-description>&lt;p&gt;A cloned Mustache instance should have pragmas, delimeters and root context
+reset to default values.&lt;/p&gt;</long-description>
+          <tag line="143" name="access" description="public"/>
+          <tag line="143" name="return" description="" type="void">
+            <type by_reference="false">void</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="177" package="Default">
+        <name>render</name>
+        <full_name>render</full_name>
+        <docblock line="165">
+          <description>Render the given template and view object.</description>
+          <long-description>&lt;p&gt;Defaults to the template and view passed to the class constructor unless a new one is provided.
+Optionally, pass an associative array of partials as well.&lt;/p&gt;</long-description>
+          <tag line="165" name="access" description="public"/>
+          <tag line="165" name="param" description="(default: null)" type="string" variable="$template">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="165" name="param" description="(default: null)" type="mixed" variable="$view">
+            <type by_reference="false">mixed</type>
+          </tag>
+          <tag line="165" name="param" description="(default: null)" type="array" variable="$partials">
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="165" name="return" description="Rendered Mustache template." type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="177">
+          <name>$template</name>
+          <default>null</default>
+          <type/>
+        </argument>
+        <argument line="177">
+          <name>$view</name>
+          <default>null</default>
+          <type/>
+        </argument>
+        <argument line="177">
+          <name>$partials</name>
+          <default>null</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="205" package="Default">
+        <name>__toString</name>
+        <full_name>__toString</full_name>
+        <docblock line="199">
+          <description>Wrap the render() function for string conversion.</description>
+          <long-description></long-description>
+          <tag line="199" name="access" description="public"/>
+          <tag line="199" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="223" package="Default">
+        <name>_renderTemplate</name>
+        <full_name>_renderTemplate</full_name>
+        <docblock line="216">
+          <description>Internal render function, used for recursive calls.</description>
+          <long-description></long-description>
+          <tag line="216" name="access" description="protected"/>
+          <tag line="216" name="param" description="" type="string" variable="$template">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="216" name="return" description="Rendered Mustache template." type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="223">
+          <name>$template</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="273" package="Default">
+        <name>_prepareSectionRegEx</name>
+        <full_name>_prepareSectionRegEx</full_name>
+        <docblock line="265">
+          <description>Prepare a section RegEx string for the given opening/closing tags.</description>
+          <long-description></long-description>
+          <tag line="265" name="access" description="protected"/>
+          <tag line="265" name="param" description="" type="string" variable="$otag">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="265" name="param" description="" type="string" variable="$ctag">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="265" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="273">
+          <name>$otag</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="273">
+          <name>$ctag</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="289" package="Default">
+        <name>_findSection</name>
+        <full_name>_findSection</full_name>
+        <docblock line="282">
+          <description>Extract the first section from $template.</description>
+          <long-description></long-description>
+          <tag line="282" name="access" description="protected"/>
+          <tag line="282" name="param" description="" type="string" variable="$template">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="282" name="return" description="$before, $type, $tag_name, $content and $after" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+        <argument line="289">
+          <name>$template</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="361" package="Default">
+        <name>_preparePragmaRegEx</name>
+        <full_name>_preparePragmaRegEx</full_name>
+        <docblock line="353">
+          <description>Prepare a pragma RegEx for the given opening/closing tags.</description>
+          <long-description></long-description>
+          <tag line="353" name="access" description="protected"/>
+          <tag line="353" name="param" description="" type="string" variable="$otag">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="353" name="param" description="" type="string" variable="$ctag">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="353" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="361">
+          <name>$otag</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="361">
+          <name>$ctag</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="376" package="Default">
+        <name>_renderPragmas</name>
+        <full_name>_renderPragmas</full_name>
+        <docblock line="369">
+          <description>Initialize pragmas and remove all pragma tags.</description>
+          <long-description></long-description>
+          <tag line="369" name="access" description="protected"/>
+          <tag line="369" name="param" description="" type="string" variable="$template">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="369" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="376">
+          <name>$template</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="396" package="Default">
+        <name>_renderPragma</name>
+        <full_name>_renderPragma</full_name>
+        <docblock line="388">
+          <description>A preg_replace helper to remove {{%PRAGMA}} tags and enable requested pragma.</description>
+          <long-description></long-description>
+          <tag line="388" name="access" description="protected"/>
+          <tag line="388" name="param" description="" type="mixed" variable="$matches">
+            <type by_reference="false">mixed</type>
+          </tag>
+          <tag line="388" name="return" description="" type="void">
+            <type by_reference="false">void</type>
+          </tag>
+          <tag line="388" name="throws" description="unknown pragma" type="\MustacheException">
+            <type by_reference="false">\MustacheException</type>
+          </tag>
+        </docblock>
+        <argument line="396">
+          <name>$matches</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="429" package="Default">
+        <name>_hasPragma</name>
+        <full_name>_hasPragma</full_name>
+        <docblock line="422">
+          <description>Check whether this Mustache has a specific pragma.</description>
+          <long-description></long-description>
+          <tag line="422" name="access" description="protected"/>
+          <tag line="422" name="param" description="" type="string" variable="$pragma_name">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="422" name="return" description="" type="bool">
+            <type by_reference="false">bool</type>
+          </tag>
+        </docblock>
+        <argument line="429">
+          <name>$pragma_name</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="445" package="Default">
+        <name>_getPragmaOptions</name>
+        <full_name>_getPragmaOptions</full_name>
+        <docblock line="437">
+          <description>Return pragma options, if any.</description>
+          <long-description></long-description>
+          <tag line="437" name="access" description="protected"/>
+          <tag line="437" name="param" description="" type="string" variable="$pragma_name">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="437" name="return" description="" type="mixed">
+            <type by_reference="false">mixed</type>
+          </tag>
+          <tag line="437" name="throws" description="Unknown pragma" type="\MustacheException">
+            <type by_reference="false">\MustacheException</type>
+          </tag>
+        </docblock>
+        <argument line="445">
+          <name>$pragma_name</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="462" package="Default">
+        <name>_throwsException</name>
+        <full_name>_throwsException</full_name>
+        <docblock line="453">
+          <description>Check whether this Mustache instance throws a given exception.</description>
+          <long-description>&lt;p&gt;Expects exceptions to be MustacheException error codes (i.e. class constants).&lt;/p&gt;</long-description>
+          <tag line="453" name="access" description="protected"/>
+          <tag line="453" name="param" description="" type="mixed" variable="$exception">
+            <type by_reference="false">mixed</type>
+          </tag>
+          <tag line="453" name="return" description="" type="void">
+            <type by_reference="false">void</type>
+          </tag>
+        </docblock>
+        <argument line="462">
+          <name>$exception</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="474" package="Default">
+        <name>_prepareTagRegEx</name>
+        <full_name>_prepareTagRegEx</full_name>
+        <docblock line="466">
+          <description>Prepare a tag RegEx for the given opening/closing tags.</description>
+          <long-description></long-description>
+          <tag line="466" name="access" description="protected"/>
+          <tag line="466" name="param" description="" type="string" variable="$otag">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="466" name="param" description="" type="string" variable="$ctag">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="466" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="474">
+          <name>$otag</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="474">
+          <name>$ctag</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="474">
+          <name>$first</name>
+          <default>false</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="491" package="Default">
+        <name>_renderTags</name>
+        <full_name>_renderTags</full_name>
+        <docblock line="484">
+          <description>Loop through and render individual Mustache tags.</description>
+          <long-description></long-description>
+          <tag line="484" name="access" description="protected"/>
+          <tag line="484" name="param" description="" type="string" variable="$template">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="484" name="return" description="" type="void">
+            <type by_reference="false">void</type>
+          </tag>
+        </docblock>
+        <argument line="491">
+          <name>$template</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="552" package="Default">
+        <name>_renderTag</name>
+        <full_name>_renderTag</full_name>
+        <docblock line="538">
+          <description>Render the named tag, given the specified modifier.</description>
+          <long-description>&lt;p&gt;Accepted modifiers are &lt;code&gt;=&lt;/code&gt; (change delimiter), &lt;code&gt;!&lt;/code&gt; (comment), &lt;code&gt;&amp;gt;&lt;/code&gt; (partial)
+&lt;code&gt;{&lt;/code&gt; or &lt;code&gt;&amp;amp;&lt;/code&gt; (don't escape output), or none (render escaped output).&lt;/p&gt;</long-description>
+          <tag line="538" name="access" description="protected"/>
+          <tag line="538" name="param" description="" type="string" variable="$modifier">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="538" name="param" description="" type="string" variable="$tag_name">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="538" name="param" description="Whitespace" type="string" variable="$leading">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="538" name="param" description="Whitespace" type="string" variable="$trailing">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="538" name="throws" description="Unmatched section tag encountered." type="\MustacheException">
+            <type by_reference="false">\MustacheException</type>
+          </tag>
+          <tag line="538" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="552">
+          <name>$modifier</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="552">
+          <name>$tag_name</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="552">
+          <name>$leading</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="552">
+          <name>$trailing</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="599" package="Default">
+        <name>_stringHasR</name>
+        <full_name>_stringHasR</full_name>
+        <docblock line="592">
+          <description>Returns true if any of its args contains the "\r" character.</description>
+          <long-description></long-description>
+          <tag line="592" name="access" description="protected"/>
+          <tag line="592" name="param" description="" type="string" variable="$str">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="592" name="return" description="" type="boolean">
+            <type by_reference="false">boolean</type>
+          </tag>
+        </docblock>
+        <argument line="599">
+          <name>$str</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="617" package="Default">
+        <name>_renderEscaped</name>
+        <full_name>_renderEscaped</full_name>
+        <docblock line="608">
+          <description>Escape and return the requested tag.</description>
+          <long-description></long-description>
+          <tag line="608" name="access" description="protected"/>
+          <tag line="608" name="param" description="" type="string" variable="$tag_name">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="608" name="param" description="Whitespace" type="string" variable="$leading">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="608" name="param" description="Whitespace" type="string" variable="$trailing">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="608" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="617">
+          <name>$tag_name</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="617">
+          <name>$leading</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="617">
+          <name>$trailing</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="630" package="Default">
+        <name>_renderComment</name>
+        <full_name>_renderComment</full_name>
+        <docblock line="621">
+          <description>Render a comment (i.e.</description>
+          <long-description>&lt;p&gt;return an empty string).&lt;/p&gt;</long-description>
+          <tag line="621" name="access" description="protected"/>
+          <tag line="621" name="param" description="" type="string" variable="$tag_name">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="621" name="param" description="Whitespace" type="string" variable="$leading">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="621" name="param" description="Whitespace" type="string" variable="$trailing">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="621" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="630">
+          <name>$tag_name</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="630">
+          <name>$leading</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="630">
+          <name>$trailing</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="649" package="Default">
+        <name>_renderUnescaped</name>
+        <full_name>_renderUnescaped</full_name>
+        <docblock line="640">
+          <description>Return the requested tag unescaped.</description>
+          <long-description></long-description>
+          <tag line="640" name="access" description="protected"/>
+          <tag line="640" name="param" description="" type="string" variable="$tag_name">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="640" name="param" description="Whitespace" type="string" variable="$leading">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="640" name="param" description="Whitespace" type="string" variable="$trailing">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="640" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="649">
+          <name>$tag_name</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="649">
+          <name>$leading</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="649">
+          <name>$trailing</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="662" package="Default">
+        <name>_renderPartial</name>
+        <full_name>_renderPartial</full_name>
+        <docblock line="653">
+          <description>Render the requested partial.</description>
+          <long-description></long-description>
+          <tag line="653" name="access" description="protected"/>
+          <tag line="653" name="param" description="" type="string" variable="$tag_name">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="653" name="param" description="Whitespace" type="string" variable="$leading">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="653" name="param" description="Whitespace" type="string" variable="$trailing">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="653" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="662">
+          <name>$tag_name</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="662">
+          <name>$leading</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="662">
+          <name>$trailing</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="688" package="Default">
+        <name>_changeDelimiter</name>
+        <full_name>_changeDelimiter</full_name>
+        <docblock line="678">
+          <description>Change the Mustache tag delimiter.</description>
+          <long-description>&lt;p&gt;This method also replaces this object's current
+tag RegEx with one using the new delimiters.&lt;/p&gt;</long-description>
+          <tag line="678" name="access" description="protected"/>
+          <tag line="678" name="param" description="" type="string" variable="$tag_name">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="678" name="param" description="Whitespace" type="string" variable="$leading">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="678" name="param" description="Whitespace" type="string" variable="$trailing">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="678" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="688">
+          <name>$tag_name</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="688">
+          <name>$leading</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="688">
+          <name>$trailing</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="711" package="Default">
+        <name>_pushContext</name>
+        <full_name>_pushContext</full_name>
+        <docblock line="704">
+          <description>Push a local context onto the stack.</description>
+          <long-description></long-description>
+          <tag line="704" name="access" description="protected"/>
+          <tag line="704" name="param" description="&amp;$local_context" type="array" variable="$local_context">
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="704" name="return" description="" type="void">
+            <type by_reference="false">void</type>
+          </tag>
+        </docblock>
+        <argument line="711">
+          <name>$local_context</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="726" package="Default">
+        <name>_popContext</name>
+        <full_name>_popContext</full_name>
+        <docblock line="720">
+          <description>Remove the latest context from the stack.</description>
+          <long-description></long-description>
+          <tag line="720" name="access" description="protected"/>
+          <tag line="720" name="return" description="" type="void">
+            <type by_reference="false">void</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="751" package="Default">
+        <name>_getVariable</name>
+        <full_name>_getVariable</full_name>
+        <docblock line="737">
+          <description>Get a variable from the context array.</description>
+          <long-description>&lt;p&gt;If the view is an array, returns the value with array key $tag_name.
+If the view is an object, this will check for a public member variable
+named $tag_name. If none is available, this method will execute and return
+any class method named $tag_name. Failing all of the above, this method will
+return an empty string.&lt;/p&gt;</long-description>
+          <tag line="737" name="access" description="protected"/>
+          <tag line="737" name="param" description="" type="string" variable="$tag_name">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="737" name="throws" description="Unknown variable name." type="\MustacheException">
+            <type by_reference="false">\MustacheException</type>
+          </tag>
+          <tag line="737" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="751">
+          <name>$tag_name</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="780" package="Default">
+        <name>_findVariableInContext</name>
+        <full_name>_findVariableInContext</full_name>
+        <docblock line="770">
+          <description>Get a variable from the context array.</description>
+          <long-description>&lt;p&gt;Internal helper used by getVariable() to abstract
+variable traversal for dot notation.&lt;/p&gt;</long-description>
+          <tag line="770" name="access" description="protected"/>
+          <tag line="770" name="param" description="" type="string" variable="$tag_name">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="770" name="param" description="" type="array" variable="$context">
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="770" name="throws" description="Unknown variable name." type="\MustacheException">
+            <type by_reference="false">\MustacheException</type>
+          </tag>
+          <tag line="770" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="780">
+          <name>$tag_name</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="780">
+          <name>$context</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="810" package="Default">
+        <name>_getPartial</name>
+        <full_name>_getPartial</full_name>
+        <docblock line="800">
+          <description>Retrieve the partial corresponding to the requested tag name.</description>
+          <long-description>&lt;p&gt;Silently fails (i.e. returns '') when the requested partial is not found.&lt;/p&gt;</long-description>
+          <tag line="800" name="access" description="protected"/>
+          <tag line="800" name="param" description="" type="string" variable="$tag_name">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="800" name="throws" description="Unknown partial name." type="\MustacheException">
+            <type by_reference="false">\MustacheException</type>
+          </tag>
+          <tag line="800" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="810">
+          <name>$tag_name</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="829" package="Default">
+        <name>_varIsIterable</name>
+        <full_name>_varIsIterable</full_name>
+        <docblock line="822">
+          <description>Check whether the given $var should be iterated (i.e.</description>
+          <long-description>&lt;p&gt;in a section context).&lt;/p&gt;</long-description>
+          <tag line="822" name="access" description="protected"/>
+          <tag line="822" name="param" description="" type="mixed" variable="$var">
+            <type by_reference="false">mixed</type>
+          </tag>
+          <tag line="822" name="return" description="" type="bool">
+            <type by_reference="false">bool</type>
+          </tag>
+        </docblock>
+        <argument line="829">
+          <name>$var</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <class final="false" abstract="false" namespace="global" line="840" package="Default">
+      <extends>\Exception</extends>
+      <name>MustacheException</name>
+      <full_name>\MustacheException</full_name>
+      <docblock line="835">
+        <description>MustacheException class.</description>
+        <long-description></long-description>
+        <tag line="835" name="extends" description="Exception"/>
+      </docblock>
+      <constant namespace="global" line="844" package="Default">
+        <name>UNKNOWN_VARIABLE</name>
+        <full_name>UNKNOWN_VARIABLE</full_name>
+        <value>0</value>
+      </constant>
+      <constant namespace="global" line="847" package="Default">
+        <name>UNCLOSED_SECTION</name>
+        <full_name>UNCLOSED_SECTION</full_name>
+        <value>1</value>
+      </constant>
+      <constant namespace="global" line="851" package="Default">
+        <name>UNEXPECTED_CLOSE_SECTION</name>
+        <full_name>UNEXPECTED_CLOSE_SECTION</full_name>
+        <value>2</value>
+      </constant>
+      <constant namespace="global" line="855" package="Default">
+        <name>UNKNOWN_PARTIAL</name>
+        <full_name>UNKNOWN_PARTIAL</full_name>
+        <value>3</value>
+      </constant>
+      <constant namespace="global" line="859" package="Default">
+        <name>UNKNOWN_PRAGMA</name>
+        <full_name>UNKNOWN_PRAGMA</full_name>
+        <value>4</value>
+      </constant>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file query-multiple-taxonomies/mustache/Mustache.php</error>
+      <error line="33" code="50018">No DocBlock was found for property $_charset</error>
+      <error line="61" code="50018">No DocBlock was found for property $_otag</error>
+      <error line="62" code="50018">No DocBlock was found for property $_ctag</error>
+      <error line="64" code="50018">No DocBlock was found for property $_tagRegEx</error>
+      <error line="66" code="50018">No DocBlock was found for property $_template</error>
+      <error line="67" code="50018">No DocBlock was found for property $_context</error>
+      <error line="68" code="50018">No DocBlock was found for property $_partials</error>
+      <error line="69" code="50018">No DocBlock was found for property $_pragmas</error>
+      <error line="71" code="50018">No DocBlock was found for property $_pragmasImplemented</error>
+      <error line="75" code="50018">No DocBlock was found for property $_localPragmas</error>
+      <error line="466" code="50015">Argument $first is missing from the Docblock of _prepareTagRegEx()</error>
+    </parse_markers>
+  </file>
+  <file path="query-multiple-taxonomies/query-multiple-taxonomies.php" hash="be6ad280eb1837eb9cd99ec06b6cfcff" package="Default">
+    <include line="29" type="Require" package="Default">
+      <name/>
+    </include>
+    <include line="34" type="Require" package="Default">
+      <name/>
+    </include>
+    <include line="35" type="Require" package="Default">
+      <name/>
+    </include>
+    <function namespace="global" line="31" package="Default">
+      <name>_qmt_init</name>
+      <full_name>\_qmt_init</full_name>
+    </function>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file query-multiple-taxonomies/query-multiple-taxonomies.php</error>
+      <error line="31" code="50009">No DocBlock was found for function \_qmt_init()</error>
+    </parse_markers>
+  </file>
+  <file path="query-multiple-taxonomies/scb/Forms.php" hash="f8201df76ba83e7728e61dffcf3fe2b5" package="Default">
+    <class final="false" abstract="false" namespace="global" line="5" package="Default">
+      <extends/>
+      <name>scbForms</name>
+      <full_name>\scbForms</full_name>
+      <constant namespace="global" line="7" package="Default">
+        <name>token</name>
+        <full_name>token</full_name>
+        <value>'%input%'</value>
+      </constant>
+      <property final="false" static="true" visibility="protected" line="9" namespace="global" package="Default">
+        <name>$cur_name</name>
+        <default></default>
+      </property>
+      <property final="false" static="true" visibility="protected" line="10" namespace="global" package="Default">
+        <name>$cur_val</name>
+        <default></default>
+      </property>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="12" package="Default">
+        <name>input</name>
+        <full_name>input</full_name>
+        <argument line="12">
+          <name>$args</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="12">
+          <name>$formdata</name>
+          <default>array()</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="61" package="Default">
+        <name>form_table</name>
+        <full_name>form_table</full_name>
+        <argument line="61">
+          <name>$rows</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="61">
+          <name>$formdata</name>
+          <default>NULL</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="72" package="Default">
+        <name>form</name>
+        <full_name>form</full_name>
+        <argument line="72">
+          <name>$inputs</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="72">
+          <name>$formdata</name>
+          <default>NULL</default>
+          <type/>
+        </argument>
+        <argument line="72">
+          <name>$nonce</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="83" package="Default">
+        <name>table</name>
+        <full_name>table</full_name>
+        <argument line="83">
+          <name>$rows</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="83">
+          <name>$formdata</name>
+          <default>NULL</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="94" package="Default">
+        <name>table_row</name>
+        <full_name>table_row</full_name>
+        <argument line="94">
+          <name>$args</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="94">
+          <name>$formdata</name>
+          <default>NULL</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="103" package="Default">
+        <name>form_table_wrap</name>
+        <full_name>form_table_wrap</full_name>
+        <argument line="103">
+          <name>$content</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="103">
+          <name>$nonce</name>
+          <default>'update_options'</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="111" package="Default">
+        <name>form_wrap</name>
+        <full_name>form_wrap</full_name>
+        <argument line="111">
+          <name>$content</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="111">
+          <name>$nonce</name>
+          <default>'update_options'</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="121" package="Default">
+        <name>table_wrap</name>
+        <full_name>table_wrap</full_name>
+        <argument line="121">
+          <name>$content</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="128" package="Default">
+        <name>row_wrap</name>
+        <full_name>row_wrap</full_name>
+        <argument line="128">
+          <name>$title</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="128">
+          <name>$content</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="private" namespace="global" line="136" package="Default">
+        <name>_single_choice</name>
+        <full_name>_single_choice</full_name>
+        <argument line="136">
+          <name>$args</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="private" namespace="global" line="150" package="Default">
+        <name>_multiple_choice</name>
+        <full_name>_multiple_choice</full_name>
+        <argument line="150">
+          <name>$args</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="private" namespace="global" line="182" package="Default">
+        <name>_expand_values</name>
+        <full_name>_expand_values</full_name>
+        <argument line="182">
+          <name>$args</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="private" namespace="global" line="194" package="Default">
+        <name>_radio</name>
+        <full_name>_radio</full_name>
+        <argument line="194">
+          <name>$args</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="private" namespace="global" line="220" package="Default">
+        <name>_select</name>
+        <full_name>_select</full_name>
+        <argument line="220">
+          <name>$args</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="private" namespace="global" line="264" package="Default">
+        <name>_checkbox</name>
+        <full_name>_checkbox</full_name>
+        <argument line="264">
+          <name>$args</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="private" namespace="global" line="285" package="Default">
+        <name>_input</name>
+        <full_name>_input</full_name>
+        <argument line="285">
+          <name>$args</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="private" namespace="global" line="306" package="Default">
+        <name>_input_gen</name>
+        <full_name>_input_gen</full_name>
+        <argument line="306">
+          <name>$args</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="private" namespace="global" line="326" package="Default">
+        <name>add_label</name>
+        <full_name>add_label</full_name>
+        <argument line="326">
+          <name>$input</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="326">
+          <name>$desc</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="326">
+          <name>$desc_pos</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="private" namespace="global" line="361" package="Default">
+        <name>get_name</name>
+        <full_name>get_name</full_name>
+        <docblock line="354">
+          <description>Generates the proper string for a name attribute.</description>
+          <long-description></long-description>
+          <tag line="354" name="param" description="The raw name" type="array|string" variable="$name">
+            <type by_reference="false">array</type>
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="354" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="361">
+          <name>$name</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="private" namespace="global" line="381" package="Default">
+        <name>get_value</name>
+        <full_name>get_value</full_name>
+        <docblock line="373">
+          <description>Traverses the formdata and retrieves the correct value.</description>
+          <long-description></long-description>
+          <tag line="373" name="param" description="The name of the value" type="array|string" variable="$name">
+            <type by_reference="false">array</type>
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="373" name="param" description="The data that will be traversed" type="array" variable="$value">
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="373" name="return" description="" type="mixed">
+            <type by_reference="false">mixed</type>
+          </tag>
+        </docblock>
+        <argument line="381">
+          <name>$name</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="381">
+          <name>$value</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="private" namespace="global" line="392" package="Default">
+        <name>get_cur_val</name>
+        <full_name>get_cur_val</full_name>
+        <argument line="392">
+          <name>$default</name>
+          <default>null</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="private" namespace="global" line="396" package="Default">
+        <name>is_associative</name>
+        <full_name>is_associative</full_name>
+        <argument line="396">
+          <name>$array</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file query-multiple-taxonomies/scb/Forms.php</error>
+      <error line="5" code="50000">No DocBlock was found for \scbForms</error>
+      <error line="9" code="50018">No DocBlock was found for property $cur_name</error>
+      <error line="10" code="50018">No DocBlock was found for property $cur_val</error>
+      <error line="12" code="50010">No DocBlock was found for method input()</error>
+      <error line="61" code="50010">No DocBlock was found for method form_table()</error>
+      <error line="72" code="50010">No DocBlock was found for method form()</error>
+      <error line="83" code="50010">No DocBlock was found for method table()</error>
+      <error line="94" code="50010">No DocBlock was found for method table_row()</error>
+      <error line="103" code="50010">No DocBlock was found for method form_table_wrap()</error>
+      <error line="111" code="50010">No DocBlock was found for method form_wrap()</error>
+      <error line="121" code="50010">No DocBlock was found for method table_wrap()</error>
+      <error line="128" code="50010">No DocBlock was found for method row_wrap()</error>
+      <error line="136" code="50010">No DocBlock was found for method _single_choice()</error>
+      <error line="150" code="50010">No DocBlock was found for method _multiple_choice()</error>
+      <error line="182" code="50010">No DocBlock was found for method _expand_values()</error>
+      <error line="194" code="50010">No DocBlock was found for method _radio()</error>
+      <error line="220" code="50010">No DocBlock was found for method _select()</error>
+      <error line="264" code="50010">No DocBlock was found for method _checkbox()</error>
+      <error line="285" code="50010">No DocBlock was found for method _input()</error>
+      <error line="306" code="50010">No DocBlock was found for method _input_gen()</error>
+      <error line="326" code="50010">No DocBlock was found for method add_label()</error>
+      <error line="392" code="50010">No DocBlock was found for method get_cur_val()</error>
+      <error line="396" code="50010">No DocBlock was found for method is_associative()</error>
+    </parse_markers>
+  </file>
+  <file path="query-multiple-taxonomies/scb/load.php" hash="d644a9ad5db6db69dc4266eed7b259d3" package="Default">
+    <include line="63" type="Include" package="Default">
+      <name/>
+    </include>
+    <function namespace="global" line="82" package="Default">
+      <name>scb_init</name>
+      <full_name>\scb_init</full_name>
+      <argument line="82">
+        <name>$callback</name>
+        <default>''</default>
+        <type/>
+      </argument>
+    </function>
+    <class final="false" abstract="false" namespace="global" line="9" package="Default">
+      <extends/>
+      <name>scbLoad4</name>
+      <full_name>\scbLoad4</full_name>
+      <property final="false" static="true" visibility="private" line="11" namespace="global" package="Default">
+        <name>$candidates</name>
+        <default></default>
+      </property>
+      <property final="false" static="true" visibility="private" line="12" namespace="global" package="Default">
+        <name>$classes</name>
+        <default></default>
+      </property>
+      <property final="false" static="true" visibility="private" line="13" namespace="global" package="Default">
+        <name>$callbacks</name>
+        <default>array()</default>
+      </property>
+      <property final="false" static="true" visibility="private" line="15" namespace="global" package="Default">
+        <name>$loaded</name>
+        <default></default>
+      </property>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="17" package="Default">
+        <name>init</name>
+        <full_name>init</full_name>
+        <argument line="17">
+          <name>$callback</name>
+          <default>''</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="34" package="Default">
+        <name>delayed_activation</name>
+        <full_name>delayed_activation</full_name>
+        <argument line="34">
+          <name>$plugin</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="50" package="Default">
+        <name>load</name>
+        <full_name>load</full_name>
+        <argument line="50">
+          <name>$do_callbacks</name>
+          <default>true</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="73" package="Default">
+        <name>get_info</name>
+        <full_name>get_info</full_name>
+      </method>
+    </class>
+    <markers>
+      <todo line="29">don't load when activating a plugin ?</todo>
+    </markers>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file query-multiple-taxonomies/scb/load.php</error>
+      <error line="82" code="50009">No DocBlock was found for function \scb_init()</error>
+      <error line="9" code="50000">No DocBlock was found for \scbLoad4</error>
+      <error line="11" code="50018">No DocBlock was found for property $candidates</error>
+      <error line="12" code="50018">No DocBlock was found for property $classes</error>
+      <error line="13" code="50018">No DocBlock was found for property $callbacks</error>
+      <error line="15" code="50018">No DocBlock was found for property $loaded</error>
+      <error line="17" code="50010">No DocBlock was found for method init()</error>
+      <error line="34" code="50010">No DocBlock was found for method delayed_activation()</error>
+      <error line="50" code="50010">No DocBlock was found for method load()</error>
+      <error line="73" code="50010">No DocBlock was found for method get_info()</error>
+    </parse_markers>
+  </file>
+  <file path="query-multiple-taxonomies/scb/Options.php" hash="4a9f626eeedddec3917f9b3f917c16a7" package="Default">
+    <class final="false" abstract="false" namespace="global" line="5" package="Default">
+      <extends/>
+      <name>scbOptions</name>
+      <full_name>\scbOptions</full_name>
+      <property final="false" static="false" visibility="protected" line="7" namespace="global" package="Default">
+        <name>$key</name>
+        <default></default>
+      </property>
+      <property final="false" static="false" visibility="protected" line="9" namespace="global" package="Default">
+        <name>$defaults</name>
+        <default></default>
+      </property>
+      <property final="false" static="false" visibility="public" line="11" namespace="global" package="Default">
+        <name>$wp_filter_id</name>
+        <default></default>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="20" package="Default">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="13">
+          <description>Create a new set of options</description>
+          <long-description></long-description>
+          <tag line="13" name="param" description="Option name" type="string" variable="$key">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="13" name="param" description="Reference to main plugin file" type="string" variable="$file">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="13" name="param" description="An associative array of default values ( optional )" type="array" variable="$defaults">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+        <argument line="20">
+          <name>$key</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="20">
+          <name>$file</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="20">
+          <name>$defaults</name>
+          <default>''</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="32" package="Default">
+        <name>get_key</name>
+        <full_name>get_key</full_name>
+        <docblock line="29">
+          <description>Get option name</description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="42" package="Default">
+        <name>get</name>
+        <full_name>get</full_name>
+        <docblock line="36">
+          <description>Get option values for one, many or all fields</description>
+          <long-description></long-description>
+          <tag line="36" name="param" description="The field(s) to get" type="string|array" variable="$field">
+            <type by_reference="false">string</type>
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="36" name="return" description="Whatever is in those fields" type="mixed">
+            <type by_reference="false">mixed</type>
+          </tag>
+        </docblock>
+        <argument line="42">
+          <name>$field</name>
+          <default>''</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="56" package="Default">
+        <name>get_defaults</name>
+        <full_name>get_defaults</full_name>
+        <docblock line="50">
+          <description>Get default values for one, many or all fields</description>
+          <long-description></long-description>
+          <tag line="50" name="param" description="The field( s ) to get" type="string|array" variable="$field">
+            <type by_reference="false">string</type>
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="50" name="return" description="Whatever is in those fields" type="mixed">
+            <type by_reference="false">mixed</type>
+          </tag>
+        </docblock>
+        <argument line="56">
+          <name>$field</name>
+          <default>''</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="67" package="Default">
+        <name>set</name>
+        <full_name>set</full_name>
+        <docblock line="60">
+          <description>Set all data fields, certain fields or a single field</description>
+          <long-description></long-description>
+          <tag line="60" name="param" description="The field to update or an associative array" type="string|array" variable="$field">
+            <type by_reference="false">string</type>
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="60" name="param" description="The new value ( ignored if $field is array )" type="mixed" variable="$value">
+            <type by_reference="false">mixed</type>
+          </tag>
+          <tag line="60" name="return" description="" type="null">
+            <type by_reference="false">null</type>
+          </tag>
+        </docblock>
+        <argument line="67">
+          <name>$field</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="67">
+          <name>$value</name>
+          <default>''</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="81" package="Default">
+        <name>reset</name>
+        <full_name>reset</full_name>
+        <docblock line="76">
+          <description>Reset option to defaults</description>
+          <long-description></long-description>
+          <tag line="76" name="return" description="" type="null">
+            <type by_reference="false">null</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="90" package="Default">
+        <name>cleanup</name>
+        <full_name>cleanup</full_name>
+        <docblock line="85">
+          <description>Remove any keys that are not in the defaults array</description>
+          <long-description></long-description>
+          <tag line="85" name="return" description="" type="bool">
+            <type by_reference="false">bool</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="101" package="Default">
+        <name>update</name>
+        <full_name>update</full_name>
+        <docblock line="94">
+          <description>Update raw data</description>
+          <long-description></long-description>
+          <tag line="94" name="param" description="" type="mixed" variable="$newdata">
+            <type by_reference="false">mixed</type>
+          </tag>
+          <tag line="94" name="param" description="wether to remove unrecognized keys or not" type="bool" variable="$clean">
+            <type by_reference="false">bool</type>
+          </tag>
+          <tag line="94" name="return" description="" type="null">
+            <type by_reference="false">null</type>
+          </tag>
+        </docblock>
+        <argument line="101">
+          <name>$newdata</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="101">
+          <name>$clean</name>
+          <default>true</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="113" package="Default">
+        <name>delete</name>
+        <full_name>delete</full_name>
+        <docblock line="108">
+          <description>Delete the option</description>
+          <long-description></long-description>
+          <tag line="108" name="return" description="" type="null">
+            <type by_reference="false">null</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="122" package="Default">
+        <name>_activation</name>
+        <full_name>_activation</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="global" line="127" package="Default">
+        <name>_clean</name>
+        <full_name>_clean</full_name>
+        <argument line="127">
+          <name>$data</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="global" line="137" package="Default">
+        <name>_get</name>
+        <full_name>_get</full_name>
+        <argument line="137">
+          <name>$field</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="137">
+          <name>$data</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="152" package="Default">
+        <name>__get</name>
+        <full_name>__get</full_name>
+        <argument line="152">
+          <name>$field</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="157" package="Default">
+        <name>__set</name>
+        <full_name>__set</full_name>
+        <argument line="157">
+          <name>$field</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="157">
+          <name>$value</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="162" package="Default">
+        <name>__isset</name>
+        <full_name>__isset</full_name>
+        <argument line="162">
+          <name>$field</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file query-multiple-taxonomies/scb/Options.php</error>
+      <error line="5" code="50000">No DocBlock was found for \scbOptions</error>
+      <error line="7" code="50018">No DocBlock was found for property $key</error>
+      <error line="9" code="50018">No DocBlock was found for property $defaults</error>
+      <error line="11" code="50018">No DocBlock was found for property $wp_filter_id</error>
+      <error line="122" code="50010">No DocBlock was found for method _activation()</error>
+      <error line="127" code="50010">No DocBlock was found for method _clean()</error>
+      <error line="137" code="50010">No DocBlock was found for method _get()</error>
+      <error line="152" code="50010">No DocBlock was found for method __get()</error>
+      <error line="157" code="50010">No DocBlock was found for method __set()</error>
+      <error line="162" code="50010">No DocBlock was found for method __isset()</error>
+    </parse_markers>
+  </file>
+  <file path="query-multiple-taxonomies/scb/Util.php" hash="70423b176d87cd3a498239e1f3e0f3ab" package="Default">
+    <function namespace="global" line="122" package="Default">
+      <name>html</name>
+      <full_name>\html</full_name>
+      <argument line="122">
+        <name>$tag</name>
+        <default></default>
+        <type/>
+      </argument>
+    </function>
+    <function namespace="global" line="155" package="Default">
+      <name>html_link</name>
+      <full_name>\html_link</full_name>
+      <argument line="155">
+        <name>$url</name>
+        <default></default>
+        <type/>
+      </argument>
+      <argument line="155">
+        <name>$title</name>
+        <default>''</default>
+        <type/>
+      </argument>
+    </function>
+    <function namespace="global" line="168" package="Default">
+      <name>set_post_field</name>
+      <full_name>\set_post_field</full_name>
+      <argument line="168">
+        <name>$field</name>
+        <default></default>
+        <type/>
+      </argument>
+      <argument line="168">
+        <name>$value</name>
+        <default></default>
+        <type/>
+      </argument>
+      <argument line="168">
+        <name>$post_id</name>
+        <default></default>
+        <type/>
+      </argument>
+    </function>
+    <class final="false" abstract="false" namespace="global" line="3" package="Default">
+      <extends/>
+      <name>scbUtil</name>
+      <full_name>\scbUtil</full_name>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="6" package="Default">
+        <name>do_scripts</name>
+        <full_name>do_scripts</full_name>
+        <argument line="6">
+          <name>$handles</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="16" package="Default">
+        <name>do_styles</name>
+        <full_name>do_styles</full_name>
+        <argument line="16">
+          <name>$handles</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="36" package="Default">
+        <name>add_activation_hook</name>
+        <full_name>add_activation_hook</full_name>
+        <argument line="36">
+          <name>$plugin</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="36">
+          <name>$callback</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="44" package="Default">
+        <name>add_uninstall_hook</name>
+        <full_name>add_uninstall_hook</full_name>
+        <argument line="44">
+          <name>$plugin</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="44">
+          <name>$callback</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="51" package="Default">
+        <name>get_current_url</name>
+        <full_name>get_current_url</full_name>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="56" package="Default">
+        <name>array_map_recursive</name>
+        <full_name>array_map_recursive</full_name>
+        <argument line="56">
+          <name>$callback</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="56">
+          <name>$array</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="62" package="Default">
+        <name>array_map_recursive_helper</name>
+        <full_name>array_map_recursive_helper</full_name>
+        <argument line="62">
+          <name>$val</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="62">
+          <name>$key</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="62">
+          <name>$callback</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="67" package="Default">
+        <name>array_extract</name>
+        <full_name>array_extract</full_name>
+        <argument line="67">
+          <name>$array</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="67">
+          <name>$keys</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="73" package="Default">
+        <name>array_pluck</name>
+        <full_name>array_pluck</full_name>
+        <argument line="73">
+          <name>$array</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="73">
+          <name>$key</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="79" package="Default">
+        <name>objects_to_assoc</name>
+        <full_name>objects_to_assoc</full_name>
+        <argument line="79">
+          <name>$objects</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="79">
+          <name>$key</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="79">
+          <name>$value</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="89" package="Default">
+        <name>array_to_sql</name>
+        <full_name>array_to_sql</full_name>
+        <argument line="89">
+          <name>$values</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="97" package="Default">
+        <name>split_at</name>
+        <full_name>split_at</full_name>
+        <argument line="97">
+          <name>$delim</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="97">
+          <name>$str</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file query-multiple-taxonomies/scb/Util.php</error>
+      <error line="122" code="50009">No DocBlock was found for function \html()</error>
+      <error line="155" code="50009">No DocBlock was found for function \html_link()</error>
+      <error line="168" code="50009">No DocBlock was found for function \set_post_field()</error>
+      <error line="3" code="50000">No DocBlock was found for \scbUtil</error>
+      <error line="6" code="50010">No DocBlock was found for method do_scripts()</error>
+      <error line="16" code="50010">No DocBlock was found for method do_styles()</error>
+      <error line="36" code="50010">No DocBlock was found for method add_activation_hook()</error>
+      <error line="44" code="50010">No DocBlock was found for method add_uninstall_hook()</error>
+      <error line="51" code="50010">No DocBlock was found for method get_current_url()</error>
+      <error line="56" code="50010">No DocBlock was found for method array_map_recursive()</error>
+      <error line="62" code="50010">No DocBlock was found for method array_map_recursive_helper()</error>
+      <error line="67" code="50010">No DocBlock was found for method array_extract()</error>
+      <error line="73" code="50010">No DocBlock was found for method array_pluck()</error>
+      <error line="79" code="50010">No DocBlock was found for method objects_to_assoc()</error>
+      <error line="89" code="50010">No DocBlock was found for method array_to_sql()</error>
+      <error line="97" code="50010">No DocBlock was found for method split_at()</error>
+    </parse_markers>
+  </file>
+  <file path="query-multiple-taxonomies/scb/Widget.php" hash="2f045eb307106821e9433f63525644e6" package="Default">
+    <class final="false" abstract="true" namespace="global" line="5" package="Default">
+      <extends>\WP_Widget</extends>
+      <name>scbWidget</name>
+      <full_name>\scbWidget</full_name>
+      <property final="false" static="false" visibility="protected" line="6" namespace="global" package="Default">
+        <name>$defaults</name>
+        <default>array()</default>
+      </property>
+      <property final="false" static="true" visibility="private" line="8" namespace="global" package="Default">
+        <name>$scb_widgets</name>
+        <default>array()</default>
+      </property>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="10" package="Default">
+        <name>init</name>
+        <full_name>init</full_name>
+        <argument line="10">
+          <name>$class</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="10">
+          <name>$file</name>
+          <default>''</default>
+          <type/>
+        </argument>
+        <argument line="10">
+          <name>$base</name>
+          <default>''</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="20" package="Default">
+        <name>_scb_register</name>
+        <full_name>_scb_register</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="26" package="Default">
+        <name>widget</name>
+        <full_name>widget</full_name>
+        <argument line="26">
+          <name>$args</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="26">
+          <name>$instance</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="44" package="Default">
+        <name>content</name>
+        <full_name>content</full_name>
+        <argument line="44">
+          <name>$instance</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="52" package="Default">
+        <name>input</name>
+        <full_name>input</full_name>
+        <argument line="52">
+          <name>$args</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="52">
+          <name>$formdata</name>
+          <default>array()</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="global" line="80" package="Default">
+        <name>scb_get_field_name</name>
+        <full_name>scb_get_field_name</full_name>
+        <argument line="80">
+          <name>$name</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file query-multiple-taxonomies/scb/Widget.php</error>
+      <error line="5" code="50000">No DocBlock was found for \scbWidget</error>
+      <error line="6" code="50018">No DocBlock was found for property $defaults</error>
+      <error line="8" code="50018">No DocBlock was found for property $scb_widgets</error>
+      <error line="10" code="50010">No DocBlock was found for method init()</error>
+      <error line="20" code="50010">No DocBlock was found for method _scb_register()</error>
+      <error line="26" code="50010">No DocBlock was found for method widget()</error>
+      <error line="44" code="50010">No DocBlock was found for method content()</error>
+      <error line="52" code="50010">No DocBlock was found for method input()</error>
+      <error line="80" code="50010">No DocBlock was found for method scb_get_field_name()</error>
+    </parse_markers>
+  </file>
+  <file path="query-multiple-taxonomies/widget.php" hash="e8a16a989d6734539d899ea18e0f3ec7" package="Default">
+    <include line="220" type="Require" package="Default">
+      <name/>
+    </include>
+    <function namespace="global" line="231" package="Default">
+      <name>qmt_walk_terms</name>
+      <full_name>\qmt_walk_terms</full_name>
+      <argument line="231">
+        <name>$taxonomy</name>
+        <default></default>
+        <type/>
+      </argument>
+      <argument line="231">
+        <name>$terms</name>
+        <default></default>
+        <type/>
+      </argument>
+      <argument line="231">
+        <name>$args</name>
+        <default>''</default>
+        <type/>
+      </argument>
+    </function>
+    <class final="false" abstract="false" namespace="global" line="3" package="Default">
+      <extends>\scbWidget</extends>
+      <name>Taxonomy_Drill_Down_Widget</name>
+      <full_name>\Taxonomy_Drill_Down_Widget</full_name>
+      <property final="false" static="false" visibility="protected" line="5" namespace="global" package="Default">
+        <name>$defaults</name>
+        <default>array('title' =&gt; '', 'mode' =&gt; 'lists', 'taxonomies' =&gt; array())</default>
+      </property>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="11" package="Default">
+        <name>init</name>
+        <full_name>init</full_name>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="15" package="Default">
+        <name>_init</name>
+        <full_name>_init</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="20" package="Default">
+        <name>Taxonomy_Drill_Down_Widget</name>
+        <full_name>Taxonomy_Drill_Down_Widget</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="26" package="Default">
+        <name>add_style</name>
+        <full_name>add_style</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="37" package="Default">
+        <name>add_script</name>
+        <full_name>add_script</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="50" package="Default">
+        <name>form</name>
+        <full_name>form</full_name>
+        <argument line="50">
+          <name>$instance</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="117" package="Default">
+        <name>content</name>
+        <full_name>content</full_name>
+        <argument line="117">
+          <name>$instance</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="global" line="134" package="Default">
+        <name>get_terms</name>
+        <full_name>get_terms</full_name>
+        <argument line="134">
+          <name>$tax</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="global" line="141" package="Default">
+        <name>generate_lists</name>
+        <full_name>generate_lists</full_name>
+        <argument line="141">
+          <name>$taxonomies</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="global" line="171" package="Default">
+        <name>generate_dropdowns</name>
+        <full_name>generate_dropdowns</full_name>
+        <argument line="171">
+          <name>$taxonomies</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="global" line="202" package="Default">
+        <name>get_reset_data</name>
+        <full_name>get_reset_data</full_name>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="209" package="Default">
+        <name>test_tax</name>
+        <full_name>test_tax</full_name>
+        <argument line="209">
+          <name>$tax_name</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="218" package="Default">
+        <name>mustache_render</name>
+        <full_name>mustache_render</full_name>
+        <argument line="218">
+          <name>$file</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="218">
+          <name>$data</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <class final="false" abstract="false" namespace="global" line="247" package="Default">
+      <extends>\Walker_Category</extends>
+      <name>QMT_List_Walker</name>
+      <full_name>\QMT_List_Walker</full_name>
+      <property final="false" static="false" visibility="public" line="249" namespace="global" package="Default">
+        <name>$tree_type</name>
+        <default>'term'</default>
+      </property>
+      <property final="false" static="false" visibility="private" line="251" namespace="global" package="Default">
+        <name>$taxonomy</name>
+        <default></default>
+      </property>
+      <property final="false" static="false" visibility="private" line="252" namespace="global" package="Default">
+        <name>$selected_terms</name>
+        <default>array()</default>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="254" package="Default">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <argument line="254">
+          <name>$taxonomy</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="260" package="Default">
+        <name>single_el</name>
+        <full_name>single_el</full_name>
+        <argument line="260">
+          <name>$output</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="260">
+          <name>$term</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="260">
+          <name>$depth</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="260">
+          <name>$child_output</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="291" package="Default">
+        <name>display_element</name>
+        <full_name>display_element</full_name>
+        <argument line="291">
+          <name>$element</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="291">
+          <name>$children_elements</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="291">
+          <name>$max_depth</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="291">
+          <name>$depth</name>
+          <default>0</default>
+          <type/>
+        </argument>
+        <argument line="291">
+          <name>$args</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="291">
+          <name>$output</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <class final="false" abstract="false" namespace="global" line="316" package="Default">
+      <extends>\Walker_CategoryDropdown</extends>
+      <name>QMT_Dropdown_Walker</name>
+      <full_name>\QMT_Dropdown_Walker</full_name>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="318" package="Default">
+        <name>start_el</name>
+        <full_name>start_el</full_name>
+        <argument line="318">
+          <name>$output</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="318">
+          <name>$category</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="318">
+          <name>$depth</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="318">
+          <name>$args</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file query-multiple-taxonomies/widget.php</error>
+      <error line="231" code="50009">No DocBlock was found for function \qmt_walk_terms()</error>
+      <error line="3" code="50000">No DocBlock was found for \Taxonomy_Drill_Down_Widget</error>
+      <error line="5" code="50018">No DocBlock was found for property $defaults</error>
+      <error line="11" code="50010">No DocBlock was found for method init()</error>
+      <error line="15" code="50010">No DocBlock was found for method _init()</error>
+      <error line="20" code="50010">No DocBlock was found for method Taxonomy_Drill_Down_Widget()</error>
+      <error line="26" code="50010">No DocBlock was found for method add_style()</error>
+      <error line="37" code="50010">No DocBlock was found for method add_script()</error>
+      <error line="50" code="50010">No DocBlock was found for method form()</error>
+      <error line="117" code="50010">No DocBlock was found for method content()</error>
+      <error line="134" code="50010">No DocBlock was found for method get_terms()</error>
+      <error line="141" code="50010">No DocBlock was found for method generate_lists()</error>
+      <error line="171" code="50010">No DocBlock was found for method generate_dropdowns()</error>
+      <error line="202" code="50010">No DocBlock was found for method get_reset_data()</error>
+      <error line="209" code="50010">No DocBlock was found for method test_tax()</error>
+      <error line="218" code="50010">No DocBlock was found for method mustache_render()</error>
+      <error line="247" code="50000">No DocBlock was found for \QMT_List_Walker</error>
+      <error line="249" code="50018">No DocBlock was found for property $tree_type</error>
+      <error line="251" code="50018">No DocBlock was found for property $taxonomy</error>
+      <error line="252" code="50018">No DocBlock was found for property $selected_terms</error>
+      <error line="254" code="50010">No DocBlock was found for method __construct()</error>
+      <error line="260" code="50010">No DocBlock was found for method single_el()</error>
+      <error line="291" code="50010">No DocBlock was found for method display_element()</error>
+      <error line="316" code="50000">No DocBlock was found for \QMT_Dropdown_Walker</error>
+      <error line="318" code="50010">No DocBlock was found for method start_el()</error>
+    </parse_markers>
+  </file>
+  <file path="search.php" hash="117d1397f23f9308031b2cf93b26f79a" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file search.php</error>
+    </parse_markers>
+  </file>
+  <file path="sidebar.php" hash="6b7523482adc355c97da918b8a775542" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file sidebar.php</error>
+    </parse_markers>
+  </file>
+  <file path="single.php" hash="58a65d8a0f6e479d78c3a4e0ebecc54d" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file single.php</error>
+    </parse_markers>
+  </file>
+  <file path="slider.php" hash="0a285fc9cdede9967fa3e8ddf0086323" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file slider.php</error>
+    </parse_markers>
+  </file>
+  <file path="taxonomy-community.php" hash="33f9f0ec7872c1ccad1b0d3b16c4d468" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file taxonomy-community.php</error>
+    </parse_markers>
+  </file>
+  <file path="taxonomy-completeness.php" hash="0a5d751bf23fba9c7d129408f7f7e666" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file taxonomy-completeness.php</error>
+    </parse_markers>
+  </file>
+  <file path="taxonomy-complexity.php" hash="21562d79c5791f677fa73623918000a4" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file taxonomy-complexity.php</error>
+    </parse_markers>
+  </file>
+  <file path="taxonomy-components.php" hash="0d3d35ff2ed191fb192fe804ae55fab0" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file taxonomy-components.php</error>
+    </parse_markers>
+  </file>
+  <package name="Default" full_name="Default"/>
+  <namespace name="global" full_name="global"/>
+  <marker count="1">todo</marker>
+  <marker count="0">fixme</marker>
+  <deprecated count="0"/>
+</project>
