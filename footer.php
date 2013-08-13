@@ -14,10 +14,6 @@
 
 </div> <!-- /container -->
 
-<script src="http://twitter.github.com/bootstrap/1.3.0/bootstrap-twipsy.js"></script>
-<script src="http://twitter.github.com/bootstrap/1.3.0/bootstrap-popover.js"></script>
-<script src="<?php bloginfo('template_directory'); ?>/scripts/makekitreviews.js"></script>
-
 <script>
 
 <?php 

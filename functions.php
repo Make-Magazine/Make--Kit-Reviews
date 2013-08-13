@@ -331,6 +331,9 @@ function js_catch_that_desc() {
 
 function js_enqueue_jquery() {
 	wp_enqueue_script( 'jquery' );
+	wp_enqueue_script( 'make-twipsy', get_stylesheet_directory_uri() . '/scripts/bootstrap-twipsy.js', array( 'jquery' ) );
+	wp_enqueue_script( 'make-popover', get_stylesheet_directory_uri() . '/scripts/bootstrap-popover.js', array( 'jquery' ) );
+	wp_enqueue_script( 'make-popover', get_stylesheet_directory_uri() . '/scripts/makekitreviews.js', array( 'jquery' ) );
 }
 
 add_action( 'wp_enqueue_scripts', 'js_enqueue_jquery' );
@@ -584,7 +587,7 @@ function js_blog_page_remove_plugin_filters() {
 
     global $wp_filter;
     global $wp;
-    if ($wp->query_vars["post_type"] == 'blog-post') {
+    if ( isset( $wp->query_vars['post_type'] ) && $wp->query_vars["post_type"] == 'blog-post' ) {
         remove_all_filters('the_content', 'plugin_filters');
         add_filter('the_content', 'do_shortcode');
     }
