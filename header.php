@@ -111,7 +111,7 @@
 			<?php wp_nav_menu( array('menu' => 'Top Bar', 'container' => '','container_class' => 'menu-{menu slug}-container navi','items_wrap' => '%3$s', 'fallback_cb' => false )); ?>
 		</ul>
 		
-		<form method="get" id="searchform" action="<?php bloginfo('home'); ?>/" class="pull-right">
+		<form method="get" id="searchform" action="<?php home_url(); ?>/" class="pull-right">
 			<input class="input-small span3" type="text" placeholder="Make: Kit Reviews" value="<?php echo esc_html($s, 1); ?>" name="s" id="s">
 			<button class="btn" type="submit" value="search">Search</button>
 		</form>
